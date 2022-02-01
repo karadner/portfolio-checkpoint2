@@ -1,0 +1,66 @@
+/*Add padding and margin to space out the page.
+Make the font larger too.*/
+body{
+	margin:1%;
+	padding:1%;
+	font-size:150%;
+}
+
+/*Make the h1 heading bigger with a bold font*/
+h1{
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+.active{
+	background: white;
+	color:rgb(150, 31, 219);
+	text-align: center;
+	text-decoration: none;
+}
+
+head:hover{
+	color: greenyellow;
+}
+.active a:visited{
+	color:black; 
+	text-decoration: none;
+}
+
+
+/*Style the images*/
+img{
+    height: auto;
+    width:200px;
+    border: 3px solid #000000;
+	padding: 1px;
+    margin: 10px;
+	border-radius: 15px;
+	
+}
+
+img:hover{
+	border: 3px solid #997cdf;
+}
+
+/*Make the h2 heading match h1*/
+h2{
+	font-size: 2em; 
+	font-weight: bold;
+}
+
+/*Improve the spacing for paragraphs AND headings*/
+p, h1, h2 {
+    padding: 10px;
+}
+
+nav li{
+	background-color: #9ee8f1;
+	padding:10px;
+	width:25%;
+	border:1px solid rgb(150, 31, 219);
+	display: inline-block;
+	width: 20%;
+}
+
+
