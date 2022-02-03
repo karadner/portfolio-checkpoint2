@@ -4,27 +4,61 @@ body{
 	margin:1%;
 	padding:1%;
 	font-size:150%;
+	background-color: #ffffff;
+	color: #1898E2;
+	
 }
 
 /*Make the h1 heading bigger with a bold font*/
+*{
+	font-family: Didot;
+}
+
+p{
+	line-height: 1.5;
+}
+main{
+	line-height: 1.5;
+}
 h1{
 	font-size: 2em; 
 	font-weight: bold;
+	color: #093592;
+	font-family: impact;
+	line-height: 100px;
 }
-
-.active{
-	background: white;
-	color:rgb(150, 31, 219);
-	text-align: center;
+a{
+	color: #afd2fa;
 	text-decoration: none;
-}
 
-head:hover{
-	color: greenyellow;
+}
+.skip{
+	color: #1898E2;
+	line-height: 1.5;
+}
+nav li{
+	background-color: #093592; 
+	padding:5px;
+	border:3px solid #6cabbe;
+	display: inline-block;
+	width: 20%;
+	border-radius: 20px;
+	text-align: center;
+	font-family: Bookman;
+	font-size: 20px;
+}
+.active{
+	background:#093592;
+	color:#6b77c0;
+	text-decoration: underline;
 }
 .active a:visited{
-	color:black; 
-	text-decoration: none;
+	color: #6cabbe; 
+	text-decoration:none;
+}
+
+a:hover{
+	color: #afd2fa;
 }
 
 
@@ -32,21 +66,26 @@ head:hover{
 img{
     height: auto;
     width:200px;
-    border: 3px solid #000000;
+    border: 3px solid #afd2fa;
 	padding: 1px;
     margin: 10px;
 	border-radius: 15px;
 	
 }
 
-img:hover{
-	border: 3px solid #997cdf;
+img:hover:nth-child(2n){
+	filter: grayscale(1);
+	border: 3px solid #000000;
+
 }
+
+
 
 /*Make the h2 heading match h1*/
 h2{
 	font-size: 2em; 
-	font-weight: bold;
+	color: #093592;
+	font-family: "Snell Roundhand";
 }
 
 /*Improve the spacing for paragraphs AND headings*/
@@ -54,13 +93,5 @@ p, h1, h2 {
     padding: 10px;
 }
 
-nav li{
-	background-color: #9ee8f1;
-	padding:10px;
-	width:25%;
-	border:1px solid rgb(150, 31, 219);
-	display: inline-block;
-	width: 20%;
-}
 
 
